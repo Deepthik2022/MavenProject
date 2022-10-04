@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7405" started-at="2022-09-27T16:59:52Z" finished-at="2022-09-27T17:00:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7405" started-at="2022-09-27T16:59:52Z" finished-at="2022-09-27T17:00:00Z">
+      <class name="org.test.Sep27b">
+        <test-method status="PASS" signature="TC1(java.lang.String)[pri:0, instance:org.test.Sep27b@3108bc]" name="TC1" duration-ms="7372" started-at="2022-09-27T16:59:52Z" data-provider="sampledata" finished-at="2022-09-27T17:00:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[excelRead('C:\Users\Achyutha\eclipse-workspace\MavenProject\Excel\excel.xlsx', 'Sheet2', 2, 0)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+      </class> <!-- org.test.Sep27b -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

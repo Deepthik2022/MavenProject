@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="6" name="Test" parallel="classes">
+  
+  <parameter name="email" value="deepthi@gmail.com"></parameter>
+  <parameter name="password" value="abc123"></parameter>
+  
+  <groups>
+  <run>
+  <exclude name="smoke"/>
+  </run>
+  </groups>
+  
+  <classes>
+  <class name="org.test.Sep17a"/>
+  <class name="org.test.Sep17b"/>
+  <class name="org.test.Sep17c"/>
+  
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
